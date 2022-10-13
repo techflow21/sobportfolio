@@ -270,6 +270,12 @@ header.sticky {
   font-weight: 500;
   letter-spacing: 1px;
 }
+
+.row-icon a,
+.main-row a {
+  color: var(--text-color);
+}
+
 .row-icon i {
   font-size: 21px;
 }
