@@ -165,7 +165,7 @@ header.sticky {
   font-weight: 600;
 }
 .about-img img {
-  height: 600px;
+  height: 620px;
   /* max-width: 480px; */
 }
 
@@ -455,5 +455,99 @@ form textarea {
   :root {
     --h1-font: 3.7rem;
     --h2-font: 2.7rem;
+  }
+
+  /* .wrapper-box{
+    padding: 0;
+    margin: 0;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+  } */
+  .about {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20%; */
+  }
+
+  .about-text {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+  }
+
+  .about-text h2,
+  h4,
+  p {
+    text-align: center;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-right: 18px;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .about-img {
+    min-width: 90%;
+    
+  }
+
+  .about-text a {
+    justify-self: center;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+  }
+
+  .porfolio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio-content {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .box{
+    display: flex;
+    flex-direction: column;
+  } */
+
+
+  .row h4 {
+    text-align: start;
+    line-height: 24px;
+  }
+
+  .contact-text h2 {
+    text-align: center;
+  }
+
+  .contact-list a{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-icons{
+    text-align: center;
+  }
+
+  #contact-form .send{
+    width:100px;
+    padding: 7px 10px;
   }
 }
