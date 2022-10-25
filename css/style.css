@@ -167,7 +167,7 @@ header.sticky {
   font-weight: 600;
 }
 .about-img img {
-  height: 620px;
+  height: 580px;
   /* max-width: 480px; */
 }
 
@@ -495,7 +495,7 @@ form textarea {
     font-weight: 500;
   }
   .about-img {
-    min-width: 90%;
+    min-width: 80%;
     
   }
 
@@ -506,7 +506,7 @@ form textarea {
   section {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 94%;
     align-items: center;
     justify-content: center;
     /* padding: 20px; */
